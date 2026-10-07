@@ -1,4 +1,4 @@
-# 🛒 Teste Técnico - QA Júnior | Verzel Store
+﻿# 🛒 Teste Técnico - QA Júnior | Verzel Store
 
 Este repositório contém os entregáveis do teste técnico para a vaga de **QA Júnior** na **Verzel**, referente à validação da entrega da versão **2.3.0** (Card **VZS-142**).
 
@@ -33,6 +33,7 @@ Todos os artefatos solicitados no teste técnico estão organizados na estrutura
 ## 🎯 Resumo da Estratégia de Teste
 
 A validação foi conduzida aplicando as melhores práticas de Engenharia de Qualidade de Software:
+
 1. **Análise de Requisitos e Critérios de Aceite:** Mapeamento de 100% dos critérios (CA01 a CA11).
 2. **Técnicas de Caixa-Preta Aplicadas:**
    - **Análise de Valor Limite (Fronteira):** Teste do subtotal em R$ 199,99, R$ 200,00 e R$ 200,01 para a regra do frete grátis, além dos limites de 5 e 6 unidades por produto.
@@ -79,6 +80,8 @@ O projeto conta com **12 testes automatizados** (7 testes End-to-End de interfac
 
 > **Nota sobre `test.fail()`:** Os testes CT05, API-04 e API-05 reproduzem diretamente os bugs encontrados e afirmam o comportamento esperado correto. Ao marcá-los com `test.fail()`, o Playwright espera a falha na asserção enquanto o defeito persistir, mantendo a suíte de integração contínua (CI) verde enquanto documenta a regressão de forma executável.
 
+---
+
 ### Como Executar os Testes
 
 #### Pré-requisitos:
@@ -121,5 +124,3 @@ Em conformidade com as instruções do processo seletivo da Verzel, declara-se a
 - **Revisão e Formatação:** Suporte na formatação padronizada dos documentos em Markdown.
 
 A análise crítica das regras de negócio, a validação de cada critério de aceite e a comprovação dos bugs reportados representam a atuação prática do candidato durante o teste técnico.
-#   T e s t e - T - c n i c o - - - Q A - J - n i o r  
- 
